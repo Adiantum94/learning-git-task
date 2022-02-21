@@ -15,3 +15,7 @@ for shops, products in shopping_list.items():
        suma = suma + 1
 print(f"W sumie kupuję {suma} produktów")
 
+if suma >= 5:
+    print("Mam do zrobienia duże zakupy")
+else:
+    print("Mam małe zakupy do zrobienia")
