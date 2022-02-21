@@ -19,3 +19,6 @@ if suma >= 5:
     print("Mam do zrobienia duże zakupy")
 else:
     print("Mam małe zakupy do zrobienia")
+
+
+print("Serdecznie pozdrawiam :)")
