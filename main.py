@@ -3,7 +3,7 @@ shopping_list = {
     "piekarnia": ["chleb", "bułki", "pączek"],
     "warzywniak": ["marchew", "seler", "rukola"]
 }
-
+shopping_list["drogeria"] = ["szampon", "mydło", "waciki"]
 suma=0
 
 for shops, products in shopping_list.items():
@@ -14,3 +14,4 @@ for shops, products in shopping_list.items():
     for product in products:
        suma = suma + 1
 print(f"W sumie kupuję {suma} produktów")
+
